@@ -1,0 +1,24 @@
+//crie um algoritmo com duas variáveis. Uma deve ter o valor 20 e a outra o valor 5. Realize as operações de adição, subtração, multiplicação e divisão. Mostre o resultado das operações no console.
+
+programa
+{
+	funcao inicio ()
+	{
+		
+		real numero1, numero2, adicao, subtracao, multiplicacao, divisao
+		
+		numero1= 20.0
+		numero2 = 5.0
+		
+		adicao = numero1+numero2
+		subtracao = numero1- numero2
+		multiplicacao = numero1 * numero2
+		divisao = numero1 / numero2
+		
+		escreva("O resultado da adição foi ",adicao,"\n")
+		escreva("O resultado da subtração foi \n",subtracao)
+		escreva("O resultado da multiplicação foi \n",multiplicacao)
+		escreva("O resultado da divisão foi \n",divisao)
+		
+	}
+}

@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		real num1, num2, num3 , calc
+		
+		num1 = 100
+		num2 = 5
+		num3 = 3
+		
+		calc = (num1 +num2) * num3
+		
+		escreva("O resultado da expressão numérica é: ",calc)
+	}
+}
