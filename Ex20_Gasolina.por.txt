@@ -1,0 +1,15 @@
+		//Exemplo 23: gasolina com a leitura dos dados pelo teclado
+programa
+{
+	funcao inicio ()
+	{
+    
+		real precoGasolina, total, qtdLitros
+		leia(precoGasolina)
+		leia(qtdLitros)    
+		total = precoGasolina * qtdLitros
+		escreva ("Você deve pagar R$", total)
+	
+	
+	}
+}

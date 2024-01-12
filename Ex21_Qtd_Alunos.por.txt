@@ -1,0 +1,16 @@
+		//Exemplo 21:  Atribuição por valor lido no teclado 
+programa
+{
+	funcao inicio ()
+	{
+    
+		inteiro qtdAlunos 
+		
+		escreva("Quantos alunos presentes? ")
+		leia(qtdAlunos)
+		
+		escreva("Quantidade de alunos presente na aula: ",qtdAlunos)
+		
+	
+	}
+}

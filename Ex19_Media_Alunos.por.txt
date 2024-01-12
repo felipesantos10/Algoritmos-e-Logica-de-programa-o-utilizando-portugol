@@ -1,0 +1,16 @@
+// Crie um algoritmo com os valores das notas da primeira prova e da segunda prova de um aluno e apresente a média aritmética do aluno
+
+programa
+{
+	funcao inicio ()
+	{
+		
+		real nota1= 7 , nota2=5, media 
+		
+		media = (nota1+nota2)/2	
+	
+		escreva("A sua primeira nota foi ",nota1,"\n","A sua segunda nota foi ",nota2,"\n","A sua média ficou em ",media)
+		
+	
+	}
+}
