@@ -1,0 +1,20 @@
+// Ex22 Chocolate 
+programa
+{
+	funcao inicio ()
+	{
+		real valorBarraDeChocolate , preco
+		inteiro qtdChocolate
+		
+		escreva("Quantas barras de chocolate você está levando? ")
+		leia(qtdChocolate)
+		
+		escreva("Qual o valor das barras de chocolate? ")
+		leia(valorBarraDeChocolate)
+		
+		preco = qtdChocolate * valorBarraDeChocolate
+		
+		escreva("Você comprou ",qtdChocolate," barra(s) de chocolate, o preço unitário é ", valorBarraDeChocolate,", o preço a ser pago sera de R$ ",preco)
+	
+	}
+}

@@ -1,0 +1,25 @@
+// Crie um programa que pergunte a um aluno ou aluna o seu nome, a idade e altura. Depois de obter esses valores, apresente na tela os dados solicitados.
+
+
+programa
+{
+	funcao inicio ()
+	{
+	cadeia nome   
+	inteiro idade 
+	real altura
+	
+	escreva("Qual o seu nome? ")
+	leia(nome)
+	
+	escreva("Qual a sua idade? ")
+	leia(idade)
+	
+	escreva("Qual a sua altura? ")
+	leia(altura)
+	
+	escreva("Prazer em te conhecer - lo(a), ",nome," você tem ",idade," anos,e sua altura é ", altura,"cm	")
+		
+		
+	}
+}
