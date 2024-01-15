@@ -1,0 +1,30 @@
+//Crie um programa para uma loja de sucos no qual são oferecidos os seguintes sucos: L - Laranja, M - Morango, A - Acerola e U - Uva. O usuário deve informar uma letra e o sistema apresentará o nome do suco e qual a principal vitamina que o suco fornece, são elas: laranja vitamina C, morango vitamina A, acerola vitamina C e uva vitamina E.
+programa
+{
+	funcao inicio ()
+	{
+	cadeia  letra
+	
+	escreva("Bem vindo ao SUCO MIX \n")
+	escreva("Escolha uma opção de suco \n")
+	escreva("(L) para suco de Laranja \n")
+	escreva("(M) para suco de Morango \n")
+	escreva("(A) para suco de Acerola \n")
+	escreva("(U) para suco de Uva \n")
+	escreva("Escolha uma opção: ")
+	leia(letra)
+	
+	//Lembrar que para caracteres utilizar-se aspas simples
+	se (letra == L) {
+		escreva("Laranja(contém vitamina C)")
+	} senao se (letra == M) {
+		escreva("Morango(contém vitamina A")
+	} senao se (letra == A){
+		escreva("Acerola(contém vitamina C")
+	} senao se (letra == U){
+		escreva("Uva(contém vitamina E")
+	} senao {
+		escreva("opcao inválida")
+	}
+	}
+}

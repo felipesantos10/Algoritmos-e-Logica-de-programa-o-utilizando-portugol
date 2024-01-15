@@ -1,0 +1,30 @@
+//Crie um programa que solicite ao usuário um número e apresente na tela qual é o dia da semana do respectivo número. Considere que os números fornecidos devem estar no intervalo entre 1 e 7. Considere que 1 é domingo, 2 é segunda e assim por diante.
+programa
+{
+	funcao inicio ()
+	{
+	inteiro numero
+	
+	escreva("Digite um numero entre 1 a 7: ")
+	leia(numero)
+	
+	se (numero == 1){
+		escreva("DOMINGO")
+	} senao se ( numero == 2){
+		escreva("SEGUNDA")
+	} senao se ( numero == 3){
+		escreva("TERÇA")
+	} senao se ( numero == 4){
+		escreva("QUARTA")
+	} senao se (numero == 5){
+		escreva("QUINTA")
+	} senao se(numero == 6){
+		escreva("SEXTA")
+	} senao se(numero == 7){
+		escreva ("SÁBADO")
+	} senao {
+		escreva("OPÇÃO INVÁLIDA")
+	}
+		
+	}
+}
