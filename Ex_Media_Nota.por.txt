@@ -1,0 +1,27 @@
+//F) Crie um programa que solicite o nome, a nota 1 e a nota 2 de um(a) aluno(a). Em seguida, o programa deve calcular a média aritmética e, se o(a) aluno(a) ficar com nota maior ou igual a 6.0, o programa deve mostrar a mensagem "APROVADO(A)". Se a nota for menor que 6.0, o programa deve apresentar a mensagem "EM RECUPERAÇÃO".
+programa
+{
+	funcao inicio ()
+	{
+		cadeia nome
+		real nota1,nota2,media  
+		
+		escreva("Qual o seu nome? ")
+		leia(nome)
+		
+		escreva("Digite a primeira nota: ")
+		leia(nota1)
+		
+		escreva("Digite sua segunda nota: ")
+		leia(nota2)
+		
+		media = (nota1+nota2)/2  
+		
+		se (media >= 6){
+			escreva("Olá, ", nome,"! Você esta APROVADO, sua média é ",media)
+		} senao {
+			escreva("Olá,",nome,"! Voce Infelizmente você não atingiu a média, você está em RECUPERAÇÃO, sua média foi ",media)
+			
+		}
+	}
+}
