@@ -1,5 +1,5 @@
 //Vamos	pensar	juntos:	monte	um	algoritmo	que	apresente	na tela	o	texto	10	+	5	=	15.
-//Exemplo	7:	código	com	texto	fixo
+//Exemplo	7:	cÃ³digo	com	texto	fixo
 programa {
   funcao inicio() {
     escreva("10+5=15")
