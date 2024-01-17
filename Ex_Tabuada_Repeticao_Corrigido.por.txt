@@ -1,0 +1,23 @@
+//Exemplo 50: algoritmo com a estrutura de repetição para imprimir a tabuada de 3
+programa
+{
+	funcao inicio ()
+	{
+	inteiro contador, mult
+	
+	escreva("----------------------")
+	escreva("\n\t\tTABUADA")
+	escreva("\n----------------------")
+	
+	//Estrutura de Repetição
+	// Dentro de "para" temos 3 parâmetros (inicialização, condição, atualização)
+	para (contador = 0; contador <= 10; contador++) {
+		mult = (contador *3)
+		escreva("\n 3 x ", contador," = ",mult)
+		
+	}
+	
+		
+	}
+	
+}

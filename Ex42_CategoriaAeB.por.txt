@@ -1,0 +1,42 @@
+//M) Crie um programa que verifique se um candidato está apto a tirar a carteira de motorista do tipo D. Os requisitos são: ter idade maior que 21 anos; estar habilitado pelo menos dois anos com a carteira B ou um ano com a carteira C; não ter nenhuma infração nos últimos doze meses.
+programa
+{
+	funcao inicio ()
+	{
+	inteiro idade, habilB,habilC
+	cadeia habilitacao, infracao
+	caracter categoria 
+	
+	escreva("Qual sua idade? ")
+	leia(idade)
+	
+	escreva("Possui habilitação? ")
+	leia(habilitacao)
+		se (habilitacao == "sim"){
+				escreva("Qual sua categoria? ")
+				leia(categoria)
+			
+			}		se ( categoria == 'A'){
+					escreva("Infelizmente é preciso ter categoria B ou C")
+					
+			}		senao se (categoria == 'B'){
+					escreva("Quantos anos de categoria: ")
+					leia(habilB)
+					
+					escreva("\n teve alguma infracao nos últimos 12 meses? ")
+					leia(infracao)
+					
+			}		senao se (categoria == 'C'){
+					escreva("Quantos anos de categoria: ")
+					leia(habilC)
+					
+					escreva("\n teve alguma infracao nos últimos 12 meses? ")
+					leia(infracao)
+		}					se (( idade > 21 e habilB > 5) ou (idade > 21 e habilC > 1) e infracao == "não"){
+								escreva("APTO para tirar a CATEGORIA D	")}
+		
+							senao {
+							escreva("NÃO APTO")
+	}
+}
+}

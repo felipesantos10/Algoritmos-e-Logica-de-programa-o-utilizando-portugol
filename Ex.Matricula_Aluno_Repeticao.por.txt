@@ -1,0 +1,27 @@
+//Exemplo 51: Criar um sistema que leia o nome do Aluno e informe sua matrícula
+// O primeiro Aluno dece ter a matrícula 2400, o segundo 2401 e assim por diante até chegar ao número 2415
+programa
+{
+	funcao inicio ()
+	{
+	inteiro matricula
+	cadeia  nome
+	
+	escreva("----------------------")
+	escreva("Matrícula Aluno")
+	escreva("\n----------------------")
+	
+	//Estrutura de Repetição
+	// Dentro de "para" temos 3 parâmetros (inicialização, condição, atualização)
+	para (matricula = 2400;matricula <= 2415; matricula++) {
+		escreva("\n Digite o nome do(a) Cliente: ")
+		leia(nome)
+	
+		escreva("Caro(a), ",nome," o número da sua matrícula é: ",matricula)
+		
+	}
+	
+		
+	}
+	
+}

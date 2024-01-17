@@ -1,0 +1,27 @@
+//Crie um programa que solicite ao usuário um peso e uma altura, e apresente na saída o valor do IMC e um dos seguintes indicadores, são eles: IMC menor que 18.5 - magreza -, IMC entre 18.5 e 24.9 - normal, IMC entre 24.9 e 30 - sobrepeso e IMC maior que 30 - obesidade. A fórmula para o cálculo é IMC = peso / (altura * altura).
+programa
+{
+	funcao inicio ()
+	{
+	 real peso, altura, imc   
+	 
+	 escreva("Informe seu peso: ")
+	 leia(peso)
+	 
+	 escreva("Imforme sua Altura: ")
+	 leia(altura)
+	 
+	 imc = peso/(altura* altura)
+	 
+	 se (imc < 18.5){
+	 	escreva("MAGREZA")
+	 } senao se (imc >= 18.5 e imc < 24.9){
+	 	escreva("NORMAL")
+	 } senao se (imc >= 24.9 e imc <= 30){
+	 	escreva("SOBREPESO")
+	 } senao {
+	 	escreva("OBESIDADE")
+	 }
+		
+	}
+}

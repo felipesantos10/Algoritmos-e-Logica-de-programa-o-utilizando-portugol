@@ -1,0 +1,24 @@
+//Crie um programa que solicite ao usuário a estação do ano desejada, e o sistema deve apresentar o dia que começa a estação, são elas: outono - 20 de março, inverno - 21 junho, primavera - 22 setembro e verão - 21 de dezembro
+programa
+{
+	funcao inicio ()
+	{
+	cadeia estacao
+	
+	escreva("Informe uma estação do ano: ")
+	leia(estacao)
+	
+	se (estacao == "outono" ou estacao == "Outono") {
+		escreva("Outono - Inicia 20 de março")
+	} senao se ( estacao == "inverno" ou estacao == "Inverno"){
+		escreva("Inverno - Inicia 21 de Junho")
+	} senao se(estacao == "primavera" ou estacao =="Primavera"){
+		escreva("Primavera - 22 de setembro")
+	} senao se (estacao == "verão" ou estacao == "Verão" ou estacao == "verao") {
+		escreva("Verão - Inicia 21 de Dezembro")
+	} senao {
+		escreva("Opção inválida")
+	}
+	
+	}
+}

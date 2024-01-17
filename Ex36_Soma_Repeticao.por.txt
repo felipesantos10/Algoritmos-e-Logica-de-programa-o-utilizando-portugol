@@ -1,0 +1,26 @@
+//(F) Crie um programa que solicite 5 números e apresente na tela a soma de todos os números.
+programa
+{
+	funcao inicio ()
+	{
+	inteiro contador,soma,numero
+	
+	para (contador = 1; contador <= 5; contador++){
+		escreva("Digite o ",contador,"° um número:")
+		leia(numero)
+		
+		// essa condição se repetirá 5 vezes conforme solicitado
+		// Começamos a contar a partir do primeiro valor
+		// Pedimos para a variavel soma guardar o valor do primeiro numero 
+		se (contador ==1) {
+			soma = numero
+		} senao {
+			//A partir desse momento resgatamos o valor que estava na variável soma e somamos com o novo número informado pelo usuário 
+			soma = soma + numero
+		}
+		 
+		
+	}//Aqui termina a condição de repetição 
+	escreva("o valor total é: ", soma)	
+	}
+}

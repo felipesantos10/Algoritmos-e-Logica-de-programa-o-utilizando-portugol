@@ -1,0 +1,27 @@
+//(M) Crie um programa que solicite o tamanho de uma blusa (P, M e G) e apresente o tamanho da blusa solicitada. (P: 0.46 X 0.55 - M: 0.51 X 0.56 - G: 0.52 X 0.58)
+programa
+{
+	funcao inicio ()
+	{
+	caracter tamanho
+	
+	escreva("Bem Vindo a Camisaria Mens Stylus \n")
+	escreva("Qual o tamanho da sua blusa: ")
+	leia(tamanho)
+	
+	escolha (tamanho) {
+		caso 'P': 
+			escreva("P: 0.46 X 0.55")
+		pare
+		caso 'M':
+			escreva("M: 0.51 x 0.56")
+		pare
+		caso 'G':
+			escreva("G 0.52 x 0.58")
+		pare
+		caso contrario:
+		escreva("Não temos esse tamanho")
+	}
+		
+	}
+}

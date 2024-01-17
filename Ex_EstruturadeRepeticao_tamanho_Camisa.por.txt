@@ -1,0 +1,22 @@
+//Exemplo 49: algoritmo com a estrutura de repetição para
+programa
+{
+	funcao inicio ()
+	{
+	inteiro contador 
+	
+	escreva("----------------------")
+	escreva("\nINICIO DO PROGRAMA")
+	escreva("\n----------------------")
+	
+	//Estrutura de Repetição
+	// Dentro de "para" temos 3 parâmetros (inicialização, condição, atualização)
+	para (contador = 1; contador <= 5; contador++) {
+	escreva("\nBom dia!")
+		
+	}
+	
+		
+	}
+	
+}

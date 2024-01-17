@@ -1,0 +1,19 @@
+//Vamos pensar juntos: imagine que você foi contratado para desenvolver um sistema de uma clínica de vacina. Todos os dias, a clínica recebe apenas 30 vacinas BCG. Monte um programa utilizando o comando enquanto que solicite quantos dias de nascimento tem o bebê que receberá a vacina BCG. Ao atingir o limite de 30 vacinas, o programa deve mostrar a média de dias dos bebês vacinados.
+programa
+{
+	funcao inicio ()
+	{
+	//Exemplo 55: Algoritmo de uma clínica para vacinação de 30 (trinta) recém-nascidos com a vacina BCG.
+
+    inteiro totalDiasNascimento =0, diasNascimento, contador
+    contador = 1
+    enquanto(contador <= 30){
+        escreva("Digite a quantidade de dias do recém-nascido: ")
+        leia(diasNascimento)
+        totalDiasNascimento = totalDiasNascimento + diasNascimento
+        contador++
+    }
+    escreva("\nMédia dos bebês vacinados no dia foi de : ",  totalDiasNascimento/30 ," dias." )
+		
+	}
+}

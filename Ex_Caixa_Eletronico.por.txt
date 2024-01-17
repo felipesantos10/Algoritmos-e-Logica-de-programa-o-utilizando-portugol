@@ -1,0 +1,39 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Exemplo 54: Algoritmo do caixa eletrônico.
+
+	real valorSacado, maiorValorSacado=0.0, mediaValorSacado, totalValorSacado=0.0
+	inteiro cont
+
+	para (cont = 1 ;  cont <=10 ;  cont++){
+    	escreva("****** Bem-vindo ao Caixa eletrônico ******")
+        	escreva("\n ")
+    	escreva ( "Qual valor deseja sacar: ")
+		leia (valorSacado)    
+
+    		// Verificar maior valor
+			 se( cont == 1){ // Entra na condição apenas quando for o primeiro saque
+            		maiorValorSacado = valorSacado
+    			 }senao{ // Demais saque
+				 se (maiorValorSacado < valorSacado){ // Verifica se o novo valor lido é o maior
+                           maiorValorSacado = valorSacado
+                }
+        }
+
+        // Controla a soma de todos os valores sacados
+        totalValorSacado = totalValorSacado + valorSacado
+
+}
+
+escreva("Relatório do dia")
+escreva("\n ")
+escreva("Maior valor sacado: ", maiorValorSacado)
+escreva("\n ")
+escreva("Média do valor sacado: ", totalValorSacado / 10)
+escreva("\n ")
+escreva("Total de valor sacado: ", totalValorSacado )
+		
+	}
+}

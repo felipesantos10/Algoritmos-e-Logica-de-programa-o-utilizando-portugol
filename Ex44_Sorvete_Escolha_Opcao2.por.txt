@@ -1,0 +1,45 @@
+//Programa para Escolha do sabor de sorvete, utilizando variável do tipo carácter 
+programa
+{
+	funcao inicio ()
+	{
+	// Declaração de variáveis
+	//No tipo Escolha apenas variáveis do tipo Inteiro e Carácter são aceitas
+	// Utilizada muito para itens de Menu
+	caracter tipoDeSorverte
+	
+	escreva("Bem Vindo aos Sorvetes da Ilha \n")
+	escreva("Escolha o sabor do seu sorvete! \n")
+	escreva("Código A - Sabor Chocolate \n")
+	escreva("Código B - Sabor Morango \n")
+	escreva("Código C - Sabor Flocos \n")
+	escreva("Código D - Sabor Açaí \n")
+	escreva("Digite o código do seu sorvete: ")
+	leia(tipoDeSorverte)
+    
+	// Início de Processamento de Dados
+	escolha (tipoDeSorverte) {
+		//Caso a opção 1 seja escolhida escreva...
+		caso 'A':
+			escreva("Sabor Chocolate - 70Kcal")
+		pare
+		//Caso a opção 2 seja escolhida..biblioteca
+		caso 'B':
+			escreva("Sabor Morango - 70kcal")
+		pare
+		caso 'C':
+			escreva("Sabor Flocos - 63Kcal")
+		pare
+		caso 'D':
+			escreva("Sabor Açaí - 58Kcal")
+		pare
+		//Equivale ao "senao"
+		caso contrario:
+		escreva("Opção Inválida, Tente Novamente!")
+		
+			
+		
+	}
+
+	}
+}
