@@ -1,5 +1,5 @@
 
-//Exemplo	8:	código	com	ERRO
+//Exemplo	8:	cÃ³digo	com	ERRO
 programa {
   funcao inicio() {
     escreva("10+1=15")
