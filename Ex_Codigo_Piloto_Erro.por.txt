@@ -1,0 +1,66 @@
+programa
+{
+	funcao inicio ()
+	{
+	cadeia nome
+	caracter cadastrar
+	inteiro maiorVeloc,menorVeloc,media, velocidade, volta,qtdVeloc, contador
+	
+	maiorVeloc = 0
+	menorVeloc = 0
+	media =0
+	volta =0
+	qtdVeloc=0
+	velocidade=0
+	
+	//inicialização do bloco 
+	escreva("Deseja cadastrar um piloto ")
+	escreva("\nEscreva (s) para novo cadastro ")
+	escreva("\nEscreva (n) para sair do cadastro e receber o relatório \n")
+	leia(cadastrar)
+	//condição 
+				enquanto (cadastrar == 's'){
+				escreva("\nNome do Piloto: ")
+				leia(nome)
+				escreva("Informe a Velocidade: ")
+				leia(velocidade)
+							
+						se (maiorVeloc < velocidade) {
+							
+							maiorVeloc = velocidade 
+						} senao se (contador == 1 ) {
+					
+							menorVeloc = velocidade
+						} senao se (contador > 1 e (velocidade > menorVeloc)) {
+							menorVeloc = menorVeloc
+						}
+						
+					//Contador
+					contador++
+					volta = volta +1
+					
+				escreva("\n+++++++++++++++++++")	
+				escreva("\nDeseja cadastrar novo piloto: ")
+				leia(cadastrar)
+				escreva("\n+++++++++++++++++++")
+					
+					
+					
+				}
+		
+		
+		qtdVeloc = qtdVeloc + velocidade 
+		media = (qtdVeloc/volta)
+		
+		escreva("O piloto ",nome," fez a volta mais rapida em ",maiorVeloc,"km/h")
+		escreva("\nO piloto ",nome," fez a volta mais lenta em ",menorVeloc,"km/h")
+		escreva("")
+		
+		
+			
+		
+
+
+
+}
+}
