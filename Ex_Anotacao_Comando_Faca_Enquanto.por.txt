@@ -1,0 +1,13 @@
+// Comando de Repetição Faca Enquanto
+//
+programa
+{
+	funcao inicio ()
+	{
+	// Comando de Repetição ""	
+	// O comando Faca Enquanto sempre será executada pelo menos 1 vez devido a localização da condição está no final do comando
+	faca{
+	*local da atualização*        
+	}enquanto (*condição*)
+	}
+}
