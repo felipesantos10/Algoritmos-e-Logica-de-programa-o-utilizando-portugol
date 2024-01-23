@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro numero = 0, soma = 0, qtdNumero =0
+	
+	faca{
+		escreva("Escreva um número: ")
+		leia(numero)
+		
+		se (soma < 100) {
+			soma = (soma + numero)
+			qtdNumero++
+		} senao {
+			escreva("Foram necessários ",qtdNumero," para alcançar 100 ou mais \n")
+		}
+	} enquanto (numero >= 0)
+		escreva("numero inválido")
+	
+	}
+}
