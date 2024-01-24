@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Vetores
+	// Declaração de Vetores
+	//Sintaxe
+	tipo_vetor nome_vetor[tamanho_vetor
+	//Exemplo 64: Declaração de um vetor para armazenar o modelo de 5 carros
+
+    cadeia carro[5]
+		
+	}
+}
