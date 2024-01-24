@@ -1,0 +1,23 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Exemplo 66: Algoritmo para armazenar os modelos de carro Uno, HB20, Argo, Fit e Onix, e em seguida exibi-los na tela. 
+
+    cadeia carro[5]
+	inteiro cont
+
+    // estrutura de repetição para ler os modelos dos carros do teclado e armazenar no vetor
+    para( cont = 0; cont <= 4; cont++){
+        escreva("Digite o modelo do ", cont, " ° carro: ")
+        leia(carro[cont])
+
+    }
+    escreva("\n\n")
+    // estrutura de repetição para escrever na tela os modelos dos carros armazenados no vetor
+    para(cont = 0; cont <= 4; cont++){
+        escreva("O  ", cont+1, " ° carro armazenado foi o ", carro[cont], ". \n")
+    }	
+		
+	}
+}
