@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Exemplo 65: Algoritmo para ler e armazenar os seguintes modelos de carro: Uno, HB20, Argo, Fit e Onix 
+
+    cadeia carro[5]
+
+    carro[0] = "Peugeot"
+    carro[1] = "HB20"
+    carro[2] = "Argo"
+    carro[3] = "Corolla"
+    carro[4] = "Onix"
+
+    escreva("O modelo do carro armazenado no índice 2 é ", carro[2])	
+		
+	}
+}
