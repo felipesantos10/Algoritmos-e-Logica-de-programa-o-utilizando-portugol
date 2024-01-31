@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Aula Funções
+	//Funções são pequenos programas (trechos de código), separados do programa principal, que realizam algum processamento específico e/ou que são utilizados várias vezes no algoritmo
+	
+	//declaração da função
+    // funcao nomeFuncao(){
+             // algoritmo da função
+    // }
+
+    // funcao inicio(){
+         // chamada para função
+    //      nomeFuncao()
+      }
+}
+	}
+}

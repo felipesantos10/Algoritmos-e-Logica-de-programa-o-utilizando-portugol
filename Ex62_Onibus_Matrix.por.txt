@@ -1,0 +1,46 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Exemplo 70: Algoritmo para venda de ingressos de um pequeno teatro com 5 fileiras e 6 poltronas em cada fileira.
+
+	inteiro poltrona[7][6], fileiraComprada, colunaComprada, linha, coluna 
+    para(linha = 0; linha < 7; linha++){
+            para (coluna = 0; coluna < 6; coluna++){
+                poltrona[linha][coluna]=0
+
+            }
+        }         
+    escreva("Mapa do Ônibus\n")
+    escreva("\n________________________________________________________\n")
+    escreva("                         # POLTRONA #                         \n")
+        para(linha = 0; linha < 7; linha++){
+                escreva("\n")
+            para (coluna = 0; coluna < 6; coluna++){
+                escreva ( "P(",linha, coluna, "): ", poltrona[linha][coluna]," | ")
+
+            }
+        }
+        escreva("\n____________________FINAL DO ÔNIBUS____________________\n\n")
+        escreva("Digite o número da fileira em que deseja comprar a poltrona:")
+        leia(fileiraComprada)
+        escreva("Digite o número da coluna em que deseja comprar a poltrona:")
+        leia(colunaComprada)
+            poltrona[fileiraComprada][colunaComprada] = -1
+            escreva("\n________________________________________________________\n")
+    escreva("                         # ASSENTO #                        \n")
+        para(linha = 0; linha < 7; linha++){
+                escreva("\n")
+            para (coluna = 0; coluna < 6; coluna++){
+                se(poltrona[linha][coluna] == -1){
+                    escreva ( "   ****  | ")
+                }senao{
+                    escreva ( "P(",linha, coluna, "): ", poltrona[linha][coluna]," | ")
+                }
+
+            }
+        }
+        escreva("\n____________________FINAL DO TEATRO____________________\n\n")	
+		
+	}
+}
