@@ -23,7 +23,7 @@ Conhecimentos aprendidos até o momento
   - Função Sem Retorno
   - Função com Retorno
   - Passagem de Paramentos por valor
-         - Escopo de variáveis Globais e Locais
+  - Escopo de variáveis Globais e Locais
  
 
 
