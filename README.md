@@ -22,5 +22,8 @@ Conhecimentos aprendidos até o momento
   - Conceito Função
   - Função Sem Retorno
   - Função com Retorno
+  - Passagem de Paramentos por valor
+         - Escopo de variáveis Globais e Locais
+ 
 
 
