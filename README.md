@@ -5,7 +5,7 @@ Conhecimentos aprendidos até o momento
 - #### Conceitos Lógica e algoritmos
 - #### Comando escreva
 - #### Variaveis
-- #### Operadores e expressões aritmenticos
+- #### Operadores e expressões aritméticos 
 - #### Comando Leia
 - #### Estruturas Condicionais
   - Condicional
