@@ -2,14 +2,14 @@
 Reporsitorio criado para estudos  de Algoritmos e Logica de Programação utilizando a pseudoliguagem Portugol.  Para melhorar o  aprendizado sigo a estrutura de estudos e exercicios do livro  "Logica de programacao com Portugol".
 
 Conhecimentos aprendidos até o momento
-- #### Conceitos Lógica e algoritmos
-- #### Comando escreva
+- #### Conceitos Lógica e Algoritmos
+- #### Comando "escreva"
 - #### Variaveis
-- #### Operadores e expressões aritméticos 
-- #### Comando Leia
+- #### Operadores e Expressões aritméticos 
+- #### Comando "leia"
 - #### Estruturas Condicionais
   - Condicional
-  - Condicional Multipla:se senao se
+  - Condicional Multipla: se senao se
   - Operadores Logicos
   - Concicional: escolha caso
 - #### Estrutura de repetição
@@ -19,7 +19,7 @@ Conhecimentos aprendidos até o momento
 - #### Vetores
 - #### Matrizes
 - #### Função
-  - Função
+  - Conceito Função
   - Função Sem Retorno
   - Função com Retorno
 
