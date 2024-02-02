@@ -12,7 +12,7 @@ Conhecimentos aprendidos até o momento
   - Condicional Multipla: se senao se
   - Operadores Logicos
   - Concicional: escolha caso
-- #### Estrutura de repetição
+- #### Estrutura de Repetição
   - estrutura de repetição: para
    - estrutura de repetição: enquano
    - estrutura de repetição: faça enquanto
@@ -24,6 +24,7 @@ Conhecimentos aprendidos até o momento
   - Função com Retorno
   - Passagem de Paramentos por valor
   - Escopo de variáveis Globais e Locais
+  - Passagem de Parâmetros por Referência 
  
 
 
