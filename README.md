@@ -1,6 +1,8 @@
 # Algoritmos-e-Logica-de-programação-utilizando-Portugol
 Repositorio criado para estudos  de Algoritmos e Logica de Programação utilizando a pseudoliguagem Portugol.  Para melhorar o  aprendizado sigo a estrutura de estudos e exercicios do livro  "Logica de programacao com Portugol de Joice Barbosa Mendes e Rafael da Silva Muniz".
 
+O livro aborda conceitos fundamentais, como algoritmos, estruturas de controle, repetição, vetores e matrizes. A obra oferece uma abordagem prática, reforçando o aprendizado por meio de exercícios. É uma leitura recomendada para aqueles que desejam desenvolver sólidos fundamentos lógicos antes de ingressar em linguagens de programação mais avançadas. Este resumo destaca a utilidade do livro para quem está começando a jornada na programação.
+
 Conhecimentos aprendidos 🏆
 - #### Conceitos Lógica e Algoritmos
 - #### Comando "escreva"
